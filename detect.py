@@ -262,7 +262,7 @@ def recognize_text(image_path):
     pytesseract.pytesseract.tesseract_cmd = R'C:\Program Files\Tesseract-OCR\tesseract.exe'
     text = pytesseract.image_to_string(resize_img(cv2.imread(image_path)), lang='kor')
     return text
-
+    
 def resize_img(img):
     original_img = img
     h,w,c = original_img.shape
@@ -273,3 +273,4 @@ def resize_img(img):
 if __name__ == '__main__':
     opt = parse_opt()
     main(opt)
+

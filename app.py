@@ -1,4 +1,4 @@
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, Response ,send_file
 import subprocess
 import os 
 import cv2
@@ -6,6 +6,10 @@ from PIL import Image
 import cv2
 import re
 from detect import recognize_text
+import requests
+import json
+import io
+import wave
 
 app = Flask(__name__)
 
@@ -36,7 +40,22 @@ def detect():
     for i in range(len(numbers)):
         combined.append(numbers[i]+day[i])
     result = ' '.join(combined)
-    return result
+    text_result =  result
+    print(text_result)
+
+    url = "http://localhost:8080/synthesize"
+    data = {'text': text_result}
+    headers = {'Content-Type': 'application/json'}
+    response = requests.post(url, data=json.dumps(data), headers=headers)
+    
+    container_name_or_id = 'sori'
+    local_file_path = 'C:/Users/student/project/testcam/'
+    cmd = f"docker cp {container_name_or_id}:/app/static {local_file_path}"
+    subprocess.call(cmd, shell=True)
+    return send_file('./static/audio.wav')  
+    
+
+
 
 
 if __name__ == '__main__':

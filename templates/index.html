@@ -3,12 +3,10 @@
   <head>
     <title>Logo Detection and Text Recognition</title>
   </head>
-  <body>
-    <h1>Detected logos:</h1>
-    <ul>
-    {% for text in text_list %}
-      <li>{{ text }}</li>
-    {% endfor %}
-    </ul>
+  <body onload="document.getElementById('audio').play()">
+    <h1>음성출력 :</h1>
+    <audio id="audio" controls>
+      <source src="{{ url_for('static', filename='audio.wav') }}" type="audio/wav">
+    </audio>
   </body>
 </html>
