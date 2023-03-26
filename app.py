@@ -25,6 +25,9 @@ def detect():
     cmd = "python detect.py --weights best.pt --source ./web_test.jpg --save-crop"
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     output, _ = p.communicate()
+    # 욜로 
+    
+
     text_list = []
     #for file_name in range(1,2):
     text = recognize_text(f'./runs/detect/photo/web_test1.png')
@@ -33,7 +36,7 @@ def detect():
     text = text.replace(',','')
     text = text.replace('.','')
     text_list.append(text)   
-
+    
     numbers = re.findall('\d+', text_list[0])
     day = ['년', '월 분 고지서 내역 입니다. ', '년', '월', '일까지 ' , '원 납부해주셔야 합니다']
     combined = []
@@ -42,6 +45,8 @@ def detect():
     result = ' '.join(combined)
     text_result =  result
     print(text_result)
+    # pytesseract 
+
 
     url = "http://localhost:8080/synthesize"
     data = {'text': text_result}
@@ -53,7 +58,7 @@ def detect():
     cmd = f"docker cp {container_name_or_id}:/app/static {local_file_path}"
     subprocess.call(cmd, shell=True)
     return send_file('./static/audio.wav')  
-    
+    # 음성 -> 출력 
 
 
 
