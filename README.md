@@ -8,6 +8,6 @@
 </div>
 
 ## 역할 분담 
-|  팀  || 멤버     |      
-|-----||----------|
-|객체팀(Image Detection(Yolov5))||ddk|
+|  팀  | 멤버     |      
+|-----|----------|
+|객체팀(Image Detection(Yolov5))|ddk|
