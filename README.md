@@ -65,8 +65,7 @@
 
 </br>
 
-- Text Detection : Yolov5 모델을 이용하여 image가 들어올 때 바운딩 박스의 부분을 추출할 수 있게 학습시켜줍니다.
-    - 이미지 예시 
+- Text Detection 
 <div>
   <img src="https://user-images.githubusercontent.com/119566469/228921514-4743c267-1819-4b32-8585-d9bde7988923.jpg" width="300">
 </div>
