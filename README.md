@@ -56,3 +56,5 @@
 
 - 예시 고지서 이미지입니다
 
+<br>
+<p align="center"><img src ="https://user-images.githubusercontent.com/119566469/228919068-51ccc13f-e757-4ea7-b8fc-1337cbcd6475.PNG" width="700"></p>
