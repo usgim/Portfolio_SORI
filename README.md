@@ -58,3 +58,5 @@
 
 <br>
 <p align="center"><img src ="https://user-images.githubusercontent.com/119566469/228919068-51ccc13f-e757-4ea7-b8fc-1337cbcd6475.PNG" width="500"></p>
+<p align="center"><img src ="https://user-images.githubusercontent.com/119566469/228919678-1be5fc34-eed8-4de7-b251-8af99fd7dff7.png" width="500"></p>
+- Text Detection : 
