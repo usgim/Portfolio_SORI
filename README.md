@@ -57,6 +57,5 @@
 - 예시 고지서 이미지입니다
 
 <br>
-<p align="left"><img src ="https://user-images.githubusercontent.com/119566469/228919068-51ccc13f-e757-4ea7-b8fc-1337cbcd6475.PNG" width="300"></p>
-<p align="right"><img src ="https://user-images.githubusercontent.com/119566469/228919992-b880bd03-b3d2-478e-b6e5-329a1a85edda.png" width="300"></p>
+<p align="left"><img src ="https://user-images.githubusercontent.com/119566469/228919068-51ccc13f-e757-4ea7-b8fc-1337cbcd6475.PNG" width="300"></p> <p align="right"><img src ="https://user-images.githubusercontent.com/119566469/228919992-b880bd03-b3d2-478e-b6e5-329a1a85edda.png" width="300"></p>
 - Text Detection : 
