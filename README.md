@@ -33,7 +33,9 @@
 
 ## 프로세스 
 <p align="center"><img src ="https://user-images.githubusercontent.com/119566469/228916839-1d6f27be-d9d0-4688-85bf-0997adb0bf93.PNG" width="700"></p>
--------
+
+-------------------------------------
+
 - Text Detection : Yolov5 모델을 사용해 Image의 원하는 부분을 추출 
 <br>
 - Text Recognition : Pytesseract를 사용해 Text Detection을 통해 나온 이미지의 글자를 추출
