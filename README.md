@@ -10,4 +10,5 @@
 ## 역할 분담 
 |  팀  | 멤버     |      
 |-----|----------|
-|객체팀(Image Detection(Yolov5))|ddk|
+|조장|<img src="https://user-images.githubusercontent.com/119478998/228486556-2aa892ef-467a-45e7-9d8d-8c1608061d08.png" width = 150>|
+|객체팀(Image Detection(Yolov5))||
