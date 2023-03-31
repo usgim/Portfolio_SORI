@@ -61,6 +61,7 @@
   <img src="https://user-images.githubusercontent.com/119566469/228919992-b880bd03-b3d2-478e-b6e5-329a1a85edda.png" width="308">
 </div>
 
+
 <bt>
 
 </br>
@@ -69,3 +70,12 @@
 <div>
   <img src="https://user-images.githubusercontent.com/119566469/228921514-4743c267-1819-4b32-8585-d9bde7988923.jpg" width="300">
 </div>
+
+
+<br>
+
+</br>
+
+- Text Recognition
+
+
